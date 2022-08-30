@@ -1,0 +1,35 @@
+.ProjectDisplay {
+  display: block;
+  color: var(--weak-color);
+  transition: 0.1s all;
+}
+
+.ProjectDisplayContent {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0;
+  border-radius: 1rem;
+  width: 8rem;
+  place-items: center;
+  gap: 0.75rem;
+}
+
+.ProjectDisplay:hover, .ProjectDisplay:focus, .ProjectDisplay:focus-visible {
+  transform: scale(1.1);
+}
+
+.ProjectDisplay:active {
+  transform: scale(0.9);
+}
+
+.ProjectDisplay img {
+  height: 5rem;
+  width: 5rem;
+  image-rendering: crisp-edges;
+  object-fit: contain;
+}
+
+.ProjectDisplay:hover img, .ProjectDisplay:focus img, .ProjectDisplay:focus-visible img {
+  filter: drop-shadow(0 0 0.2rem var(--accent-color));
+}

@@ -1,0 +1,17 @@
+.li {
+  list-style-type: none;
+}
+
+.ul {
+  padding: 1rem;
+  max-width: 100%;
+  width: 60rem;
+
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  place-items: center;
+  flex-basis: max-content;
+  justify-content: center;
+  align-items: flex-start;
+}

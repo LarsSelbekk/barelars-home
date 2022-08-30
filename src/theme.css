@@ -1,0 +1,16 @@
+:root {
+  --main-color: #eeeeee;
+  --accent-color: #0e61da;
+  --weak-color: charcoal;
+  --background-color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #242424;
+    --weak-color: charcoal;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
