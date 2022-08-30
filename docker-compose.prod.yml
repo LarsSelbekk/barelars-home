@@ -1,0 +1,12 @@
+version: "3.0"
+services:
+  barelars-home:
+    build: .
+    image: barelars-home/release:latest
+    container_name: barelars-home
+    networks:
+      - reverse-proxy
+
+networks:
+  reverse-proxy:
+    external: true

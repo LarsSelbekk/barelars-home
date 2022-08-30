@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+  barelars-home:
+    build:
+      context: ./
+      target: install
+    image: barelars-home:latest
+    container_name: barelars-home_dev
+#    ports:
+#      - "8000:8000"
+    networks:
+      - reverse-proxy
+    volumes:
+      - "./src/:/app/src/:ro"
+      - "./public/:/app/public/:ro"
+      - "./index.html:/app/index.html:ro"
+      - "./package.json:/app/package.json:ro"
+      - "./tsconfig.json:/app/tsconfig.json:ro"
+      - "./tsconfig.node.json:/app/tsconfig.node.json:ro"
+      - "./vite.config.ts:/app/vite.config.ts:ro"
+      - "./yarn.lock:/app/yarn.lock:ro"
+      - "/app/node_modules"
+
+networks:
+  reverse-proxy:
+    external: true
