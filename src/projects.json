@@ -1,15 +1,15 @@
 [
   {
     "name": "LinkedIn",
-    "path": "https:/linkedin.com/in/larsselbekk",
-    "lightIcon": "src/assets/logos/LinkedIn-logo.png",
-    "darkIcon": "src/assets/logos/LinkedIn-logo.png"
+    "path": "https://linkedin.com/in/larsselbekk",
+    "lightIcon": "logos/LinkedIn-logo.png",
+    "darkIcon": "logos/LinkedIn-logo.png"
   },
   {
     "name": "GitHub",
     "path": "https://github.com/larsselbekk",
-    "darkIcon": "src/assets/logos/GitHub-logo-light.png",
-    "lightIcon": "src/assets/logos/GitHub-logo-dark.png"
+    "darkIcon": "logos/GitHub-logo-light.png",
+    "lightIcon": "logos/GitHub-logo-dark.png"
   },
   {
     "name": "BasketFall",
