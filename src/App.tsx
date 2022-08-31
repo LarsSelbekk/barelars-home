@@ -1,11 +1,10 @@
 import "./App.css"
-import ProjectOverview from "./components/ProjectOverview"
+import { FrontPage } from "./components/FrontPage"
 
 function App() {
   return (
     <div className="App">
-      <h1>Lars Mitsem Selbekk</h1>
-      <ProjectOverview />
+      <FrontPage />
     </div>
   )
 }
