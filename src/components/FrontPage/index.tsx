@@ -1,7 +1,8 @@
 import ProjectOverview from "../ProjectOverview"
 import React, { useState } from "react"
 import styles from "./FrontPage.module.css"
-import CursedLars from "../../../public/Cursed_Lars.jpg"
+import CursedLars from "../../assets/Cursed_Lars.jpg"
+import Lars from "../../assets/Lars.jpg"
 
 export const FrontPage: React.FC = () => {
   const [isDropping, setIsDropping] = useState(false)
@@ -46,7 +47,7 @@ export const FrontPage: React.FC = () => {
           src={
             isDropping
               ? CursedLars
-              : "https://avatars.githubusercontent.com/u/6224384?v=4"
+              : Lars
           }
           alt="A portrait picture of Lars"
           className={styles.portrait}
