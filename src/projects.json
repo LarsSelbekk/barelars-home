@@ -12,6 +12,12 @@
     "lightIcon": "logos/GitHub-logo-dark.png"
   },
   {
+    "name": "Boklisten",
+    "path": "https://boklisten.no",
+    "darkIcon": "https://www.boklisten.no/assets/img/boklisten_logo_v2_icon_white_lg.png",
+    "lightIcon": "https://www.boklisten.no/assets/img/boklisten_logo_v2_icon_white_lg.png"
+  },
+  {
     "name": "BasketFall",
     "path": "https://barelars.no/basketfall",
     "lightIcon": "https://barelars.no/basketfall/android-chrome-192x192.png",
@@ -22,6 +28,18 @@
     "path": "https://battlegoo.se",
     "lightIcon": "https://battlegoo.se/goose.png",
     "darkIcon": "https://battlegoo.se/goose.png"
+  },
+  {
+    "name": "Lab Assistant",
+    "path": "https://barelars.no/lab-assistant/",
+    "lightIcon": "https://barelars.no/lab-assistant/safari-pinned-tab.svg",
+    "darkIcon": "https://barelars.no/lab-assistant/static/media/gitlab-logo-w.54d2c8c1477a1d94c06e.png"
+  },
+  {
+    "name": "VR Pool",
+    "path": "https://barelars.no/dotPool/",
+    "lightIcon": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50%' y='50%' dominant-baseline='central' text-anchor='middle' font-size='90'>🎱</text></svg>",
+    "darkIcon": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50%' y='50%' dominant-baseline='central' text-anchor='middle' font-size='90'>🎱</text></svg>"
   },
   {
     "name": "ShortLars",
