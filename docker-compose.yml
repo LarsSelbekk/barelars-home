@@ -6,10 +6,8 @@ services:
       target: install
     image: barelars-home:latest
     container_name: barelars-home_dev
-#    ports:
-#      - "8000:8000"
-    networks:
-      - reverse-proxy
+    ports:
+      - "8000:8000"
     volumes:
       - "./src/:/app/src/:ro"
       - "./public/:/app/public/:ro"
@@ -20,7 +18,3 @@ services:
       - "./vite.config.ts:/app/vite.config.ts:ro"
       - "./yarn.lock:/app/yarn.lock:ro"
       - "/app/node_modules"
-
-networks:
-  reverse-proxy:
-    external: true
