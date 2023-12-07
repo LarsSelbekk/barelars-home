@@ -58,5 +58,11 @@
     "path": "https://github.com/LarsSelbekk/Git-adventskalender",
     "lightIcon": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
     "darkIcon": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+  },
+  {
+    "name": "RedoXReality",
+    "path": "https://barelars.no/redoxreality",
+    "lightIcon": "https://barelars.no/redox-reality/android-chrome-192x192.png",
+    "darkIcon": "https://barelars.no/redox-reality/android-chrome-192x192.png"
   }
 ]
