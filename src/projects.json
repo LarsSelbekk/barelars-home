@@ -14,8 +14,8 @@
   {
     "name": "Boklisten",
     "path": "https://boklisten.no",
-    "darkIcon": "https://www.boklisten.no/_next/image?url=%2Fboklisten_logo_white.png&w=96&q=75&dpl=dpl_5bnVddUxiBUBdcsEyHCyD3y3qTW4",
-    "lightIcon": "https://www.boklisten.no/_next/image?url=%2Fboklisten_logo_white.png&w=96&q=75&dpl=dpl_5bnVddUxiBUBdcsEyHCyD3y3qTW4"
+    "darkIcon": "https://boklisten.no/boklisten_logo_white.png",
+    "lightIcon": "https://boklisten.no/boklisten_logo_white.png"
   },
   {
     "name": "BasketFall",
