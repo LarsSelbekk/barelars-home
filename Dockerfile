@@ -1,6 +1,6 @@
 FROM node:alpine AS install
 
-WORKDIR app
+WORKDIR /app
 RUN npm install -g yarn@1
 COPY package.json tsconfig.json tsconfig.node.json vite.config.ts yarn.lock ./
 RUN yarn
@@ -10,9 +10,9 @@ CMD ["yarn", "dev", "--port", "8000", "--host"]
 
 FROM node:alpine AS build
 
-WORKDIR app
+WORKDIR /app
 RUN npm install -g yarn@1
-COPY --from=install app/ ./
+COPY --from=install /app/ ./
 COPY public/ public/
 COPY src/ src/
 COPY index.html ./
@@ -23,6 +23,6 @@ CMD ["yarn", "preview", "--port", "8000", "--host"]
 
 FROM nginx:alpine AS release
 
-COPY --from=build app/dist/ /usr/share/nginx/html/
+COPY --from=build /app/dist/ /usr/share/nginx/html/
 
 EXPOSE 80
