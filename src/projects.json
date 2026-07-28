@@ -50,8 +50,8 @@
   {
     "name": "ShortLars",
     "path": "https://s.barelars.no/",
-    "lightIcon": "https://s.barelars.no/images/favicon-196x196.png",
-    "darkIcon": "https://s.barelars.no/images/favicon-196x196.png"
+    "lightIcon": "logos/Kutt-logo.png",
+    "darkIcon": "logos/Kutt-logo.png"
   },
   {
     "name": "TinTabs",
