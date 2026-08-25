@@ -37,9 +37,9 @@
   },
   {
     "name": "Lab Assistant",
-    "path": "https://barelars.no/lab-assistant/",
-    "lightIcon": "https://barelars.no/lab-assistant/safari-pinned-tab.svg",
-    "darkIcon": "https://barelars.no/lab-assistant/static/media/gitlab-logo-w.54d2c8c1477a1d94c06e.png"
+    "path": "https://lab-assistant.dotclique.com",
+    "lightIcon": "https://lab-assistant.dotclique.com/safari-pinned-tab.svg",
+    "darkIcon": "https://lab-assistant.dotclique.com/static/media/gitlab-logo-w.54d2c8c1477a1d94c06e.png"
   },
   {
     "name": "VR Pool",
